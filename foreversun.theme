@@ -1,0 +1,8 @@
+<?php
+
+function foreversun_preprocess_html(&$variable){
+    
+} 
+
+
+

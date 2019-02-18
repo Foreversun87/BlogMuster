@@ -1,0 +1,144 @@
+.content{
+    background-color: $background-color-main;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+//Front-Page Hintergrund - Hinterste Ebene
+div#main{
+    background-color: $background-color;
+    .grid-container{
+        
+        padding: 0;
+    }
+    
+    
+}
+
+
+//NormalePage Hintergrund - Hinterste Ebene
+#page .grid-container{
+    
+    
+    padding: 0;
+    
+}
+
+#block-foreversun-content{
+    padding: 40px;
+}
+
+
+#main > div > div > cell.medium-12.large-12{
+    top: 5px;
+    margin-top: 5px !important;
+}
+
+
+//Front-PageView
+.b-teaser {
+    
+}
+
+.b-teaser > .text-inner.cell{
+    text-align: center;
+    
+    border: 1px solid black;
+    padding: 25px 0;
+    margin: 30px 0;
+    border-radius: 7px;
+
+    a{
+        
+    }
+}
+
+.views-view-grid.horizontal.cols-2.clearfix > div > .front-view{
+    
+    padding: 20px 0;
+    margin-bottom: 20px;    
+    width: 50%;
+    min-height: 300px;
+}
+
+#icon-comment{
+    margin-right: 7px;
+    float: left;
+}
+
+//=== Anmeldung ===
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    background-color: $background-color;
+}
+
+.cell.large-12.anmelden-logo{
+    width: 200px;
+    height: 100px;
+}
+
+#edit-pass.cell.large-12{
+    margin-bottom: 0;
+}
+
+#edit-submit{
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.login.text-center{
+    margin-top: 20px;
+}
+
+// === Pager ===
+
+.pager.grid-x.text-center{
+    list-style: none;
+    
+}
+
+.pager.grid-x.text-center span{
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+
+// === Media-Player ===
+
+#block-mediaplayer{
+    width: 70%;
+    height: 30%;
+}
+
+.responsive-embed.panorama{
+    width: 700px !important;
+    height: 320px !important;
+}
+
+// === Zusammenfassung ===
+
+.zusammenfassung{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.taxonomy{
+    
+
+    div {
+        display: inline;
+        a{
+            margin-right: 5px;
+        }
+    }
+}
+
+
+
+
